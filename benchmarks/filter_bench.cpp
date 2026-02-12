@@ -2,6 +2,7 @@
 #include <vector>
 #include <cstdlib>
 #include <immintrin.h>
+#include <bitset>
 #include "../include/filter.hpp"
 #include "../include/packet.hpp"
 

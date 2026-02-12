@@ -13,7 +13,7 @@ add_compile_options(-O3 -march=native -Wall -Wextra -Wpedantic)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(URING REQUIRED liburing)
 
-add_executable(packet_engine src/main.cpp)
+add_executable(packet_engine src/main.cpp src/server.cpp)
 
 target_link_libraries(packet_engine PRIVATE ${URING_LIBRARIES})
 target_include_directories(packet_engine PRIVATE ${URING_INCLUDE_DIRS} include)

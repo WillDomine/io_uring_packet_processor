@@ -8,7 +8,7 @@ def test_server():
         
         # Connect to the server
         print("Connecting to server...")
-        s.connect(('localhost', 9000))
+        s.connect(('localhost', 9090))
         
         # Send data
         message = "Testing Phase 1 Connectivity"
