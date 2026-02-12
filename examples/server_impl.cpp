@@ -1,4 +1,4 @@
-#include "../include/server.hpp"
+#include "../examples/server.hpp"
 #include "../include/packet.hpp"
 #include "../include/filter.hpp"
 #include <iostream>
