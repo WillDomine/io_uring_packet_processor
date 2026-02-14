@@ -1,0 +1,10 @@
+{
+  "title": "AVX2 High-Performance Packet Filter",
+  "description": {
+    "en": "A header-only C++ library leveraging AVX2 SIMD intrinsics to filter network packets with 0.76ns latency. Benchmarks confirm a 2.44x speedup over standard scalar C++, capable of processing ~1.3 billion packets per second. Includes an io_uring based zero-copy TCP server demo.",
+    "ja": "AVX2 SIMDイントリンシックを活用し、0.76nsのレイテンシでネットワークパケットをフィルタリングするヘッダーオンリーC++ライブラリ。標準的なスカラーC++と比較して2.44倍の高速化（毎秒約13億パケット）を達成しました。ゼロコピーio_uring TCPサーバーのデモも同梱されています。"
+  },
+  "image": "packet_filter_bench.png",
+  "demoUrl": "https://github.com/YOUR_USERNAME/avx2-packet-filter",
+  "tags": ["C++", "AVX2", "SIMD", "Networking", "io_uring"]
+}
